@@ -58,6 +58,10 @@ header .navbar {
   }
 }
 
+header .navbar .nav-item:hover{
+    color: blue;
+}
+
 header .navbar .navbar-nav.absolute-right {
   position: absolute;
   right: 0;
@@ -85,7 +89,7 @@ header .navbar .nav-link {
 }
 
 header .navbar .nav-link:hover {
-  color: #fff;
+  color: white;
 }
 
 header .navbar .nav-link.active {
@@ -220,6 +224,10 @@ header .navbar.navbar-light .nav-link.active {
   left: 0;
   right: 0;
   bottom: 0;
+}
+ 
+.table-striped{
+  font-size: 13px;
 }
 
 .site-hero .site-hero-inner {
@@ -1127,7 +1135,7 @@ blockquote p {
 }
 
 .block-15 .heading {
-  max-width: 400px;
+  max-width: 600px;
   margin-bottom: 20px;
 }
 
@@ -1139,7 +1147,7 @@ blockquote p {
 }
 
 .block-15 .text {
-  max-width: 450px;
+  max-width: 1000px;
 }
 
 .block-6 {
