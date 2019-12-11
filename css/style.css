@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #fff;
   font-family: "Rubik", arial, sans-serif;
@@ -46,6 +49,7 @@ header .navbar-collapse {
 }
 
 header .navbar {
+  min-height : 80px;
   padding-top: 0;
   padding-bottom: 0;
   background: #fff !important;
@@ -227,7 +231,7 @@ header .navbar.navbar-light .nav-link.active {
 }
  
 .table-striped{
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .site-hero .site-hero-inner {
