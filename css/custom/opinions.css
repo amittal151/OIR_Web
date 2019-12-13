@@ -48,7 +48,7 @@ p {
     font-size: .9rem;
     position: relative;
     z-index: 200;
-    /* margin-left: 2rem; */
+    margin-top: 2rem;
 }
 
 .info {
@@ -70,11 +70,6 @@ p {
     overflow: hidden;
 }
 
-/* @media(max-width: 66em) {
-    .info-name {
-        font-size: 1.8rem;
-    }
-} */
 
 @media(max-width: 66em) {
     .story, .text, .info, .shape {
@@ -94,12 +89,10 @@ p {
 @media(max-width: 48em) {
     .info{
         text-align: center;
-        /* margin-bottom: 3rem; */
     }
     .sub {
         display: block;
         margin-top: -1rem;
-        /* margin-bottom: 3rem; */
         border-bottom: .5px solid #ccc;
     }
     .shape, .text {
@@ -132,17 +125,17 @@ p {
         height: 6rem;
     }
     .summary {
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .text {
-        font-size: .8rem;
-        line-height: 1.3rem;
+        font-size: .5rem;
+        line-height: 1rem;
     }
     .shape, .text {
         margin-top: 1rem;
     }
     .sub {
-        font-size: 1rem;
+        font-size: .5rem;
         width: 85vw;
         overflow-wrap: normal;
     }
