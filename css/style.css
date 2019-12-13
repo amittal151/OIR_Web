@@ -9,7 +9,74 @@ body {
   line-height: 2;
   color: gray;
 }
+/* ================================================================================================================= */
+.sidepanel  {
+  width: 0px;
+  top: 300px;
+  position: fixed;
+  z-index: 3;
+  height: 450px;
+  left: 0;
+  background-color: #6fcfd6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+  border-radius: 0px 10px 10px 0px;
+}
 
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: white;
+}
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+/* =========================================== */
+
+#mySidenav button {
+  position: fixed; /* Position them relative to the browser window */
+  left: -70px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 115px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  z-index:3;
+  color: white;
+}
+#mySidenav button:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+.temp{
+  z-index : 4;
+}
+
+#News {
+  top: 220px;
+  background-color: #11cbd7;
+}
+/* ==================================================================================================================== */
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -20,6 +87,7 @@ a {
 a:hover {
   text-decoration: none;
 }
+
 
 h1, h2, h3, h4, h5 {
   color: #000;
@@ -80,7 +148,8 @@ header .navbar .navbar-nav.absolute-right {
 
 header .navbar .nav-link {
   padding: 1.7rem 1rem;
-  font-size: 15px;
+  font-size: 16px;
+  /* font-weight: 300; */
   outline: none !important;
   opacity: 1 !important;
   color: #000 !important;
@@ -207,7 +276,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .site-hero .btn:hover {
-  -webkit-box-shadow: none !important;
+  -webkit-box-shadow: none!important;
   box-shadow: none !important;
   background: none !important;
   color: #fff;
@@ -1102,7 +1171,7 @@ blockquote p {
 
 .element-animate {
   opacity: 0;
-  visibility: hidden;
+  display:visible;
 }
 
 .block-16 figure {
