@@ -1,3 +1,4 @@
+/* dropright submenu */
 header .navbar .dropright .dropdown-menu {
     left: 100%;
     top: 0;
@@ -19,3 +20,13 @@ header .navbar .dropright .dropdown-menu:before {
 }
 
 
+/* multicolumn */
+header .navbar .dropdown-menu .row ul {
+    list-style: none !important;
+}
+
+@media(min-width: 23rem) {
+    header .navbar .dropdown-menu .row {
+        width: max-content;
+    }
+}
