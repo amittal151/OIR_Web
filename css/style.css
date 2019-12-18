@@ -10,9 +10,10 @@ body {
   color: gray;
 }
 /* ================================================================================================================= */
+
 .sidepanel  {
   width: 0px;
-  top: 300px;
+  top: 340px;
   position: fixed;
   z-index: 3;
   height: 450px;
@@ -73,7 +74,7 @@ body {
 }
 
 #News {
-  top: 220px;
+  top: 250px;
   background-color: #11cbd7;
 }
 /* ==================================================================================================================== */
@@ -1171,7 +1172,7 @@ blockquote p {
 
 .element-animate {
   opacity: 0;
-  display:visible;
+  display: visible;
 }
 
 .block-16 figure {
