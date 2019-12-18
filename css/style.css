@@ -10,6 +10,7 @@ body {
   color: gray;
 }
 /* ================================================================================================================= */
+
 .sidepanel  {
   width: 0px;
   top: 340px;
@@ -1171,7 +1172,7 @@ blockquote p {
 
 .element-animate {
   opacity: 0;
-  display:visible;
+  display: visible;
 }
 
 .block-16 figure {
