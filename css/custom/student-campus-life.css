@@ -162,7 +162,7 @@
   }
   .slide:nth-child(1) .slide__bg {
     left: 0;
-    background-image: url("https://www.iitk.ac.in/new/images/faculty-staff-campus-life/life-at-iitk.jpg");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Student-life.JPG")
   }
 
   .slide:nth-child(2) {
@@ -170,7 +170,7 @@
   }
   .slide:nth-child(2) .slide__bg {
     left: -50%;
-    background-image: url("https://www.iitk.ac.in/new/images/faculty-staff-campus-life/housing.jpg");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/health-care.JPG")
   }
   
   .slide:nth-child(3) {
@@ -178,7 +178,7 @@
   }
   .slide:nth-child(3) .slide__bg {
     left: -100%;
-    background-image: url("https://www.iitk.ac.in/new/images/faculty-staff-campus-life/food-dining.jpg");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/accommodation.JPG")
   }
   
   .slide:nth-child(4) {
@@ -186,7 +186,7 @@
   }
   .slide:nth-child(4) .slide__bg {
     left: -150%;
-    background-image: url("https://www.iitk.ac.in/new/images/faculty-staff-campus-life/retail-services.jpg");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Food-&-Dining.JPG")
   }
 
   .slide:nth-child(5) {
@@ -194,7 +194,7 @@
   }
   .slide:nth-child(5) .slide__bg {
     left: -200%;
-    background-image: url("https://www.iitk.ac.in/new/images/faculty-staff-campus-life/health-care.jpg");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/sports-recreations.JPG")
   }
 
   .slide:nth-child(6) {
@@ -202,7 +202,7 @@
   }
   .slide:nth-child(6) .slide__bg {
     left: -250%;
-    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Events.JPG");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/retail-services.JPG")
   } 
   
   .slide:nth-child(7) {
@@ -210,7 +210,7 @@
   }
   .slide:nth-child(7) .slide__bg {
     left: -300%;
-    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Clubs-&-Communities.JPG");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Events.JPG")
   } 
 
   .slide:nth-child(8) {
@@ -218,7 +218,7 @@
   }
   .slide:nth-child(8) .slide__bg {
     left: -350%;
-    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Culture.JPG");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Clubs-&-Communities.JPG")
   } 
 
   .slide:nth-child(9) {
@@ -226,9 +226,18 @@
   }
   .slide:nth-child(9) .slide__bg {
     left: -400%;
-    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Sports-&-Recreations.JPG");
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Culture.JPG")
   } 
   
+  .slide:nth-child(10) {
+    left: 900%;
+  }
+  .slide:nth-child(10) .slide__bg {
+    left: -450%;
+    background-image: url("https://www.iitk.ac.in/new/images/Student_Campus_Life/STU-Getting-to-IIT-Kanpur.JPG")
+  } 
+  
+
   .slide__content {
     position: absolute;
     top: 0;
