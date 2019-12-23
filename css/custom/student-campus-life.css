@@ -9,7 +9,11 @@
   }
   
   html, body {
+<<<<<<< HEAD
     /* font-size: 62.5%; */
+=======
+    font-size: 62.5%;
+>>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
     height: 100%;
     overflow: hidden;
   }
@@ -63,7 +67,11 @@
     position: absolute;
     z-index: 3;
     left: 50%;
+<<<<<<< HEAD
     bottom: 1.25rem;
+=======
+    bottom: 2rem;
+>>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     font-size: 0;
@@ -74,17 +82,28 @@
     position: relative;
     display: inline-block;
     vertical-align: top;
+<<<<<<< HEAD
     width: 1.25rem;
     height: 1.25rem;
     margin: 0 0.3125rem;
+=======
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.5rem;
+>>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
     border-radius: 50%;
     border: 2px solid #fff;
     cursor: pointer;
   }
   @media(max-width: 550px) {
     .slider-pagi__elem {
+<<<<<<< HEAD
         width: .625rem;
         height: .625rem;
+=======
+        width: 1rem;
+        height: 1rem;
+>>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
       }
   }
   .slider-pagi__elem:before {
@@ -92,8 +111,13 @@
     position: absolute;
     left: 50%;
     top: 50%;
+<<<<<<< HEAD
     width: .75rem;
     height: .75rem;
+=======
+    width: 1.2rem;
+    height: 1.2rem;
+>>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
     background: #fff;
     border-radius: 50%;
     transition: -webkit-transform 0.3s;
@@ -289,9 +313,16 @@
       left: 0;
       bottom: 0;
       width: 100%;
+<<<<<<< HEAD
       height: min-content;
       padding: 1.25rem;
       padding-bottom: 3.125rem;
+=======
+      /* height: 25rem; */
+      height: min-content;
+      padding: 2rem;
+      padding-bottom: 5rem;
+>>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
       text-align: center;
       -webkit-transform: translateY(50%);
               transform: translateY(50%);
@@ -301,13 +332,19 @@
     }
   }
   .slide__text-heading {
+<<<<<<< HEAD
     font-size: 3.125rem;
     margin-bottom: 1.25rem;
+=======
+    font-size: 5rem;
+    margin-bottom: 2rem;
+>>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
     text-transform: capitalize;
     color: #212529;
   }
   @media (max-width: 991px) {
     .slide__text-heading {
+<<<<<<< HEAD
       font-size: 2.1875rem;
       margin-bottom: .625rem;
     } 
@@ -319,6 +356,19 @@
   @media (max-width: 991px) {
     .slide__text-desc {
       font-size: .75rem;
+=======
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    } 
+  }
+  .slide__text-desc {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 991px) {
+    .slide__text-desc {
+      font-size: 1.2rem;
+>>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
     }
   }
   
