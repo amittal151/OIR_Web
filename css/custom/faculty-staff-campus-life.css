@@ -280,16 +280,9 @@
       left: 0;
       bottom: 0;
       width: 100%;
-<<<<<<< HEAD
       height: min-content;
       padding: 1.25rem;
       padding-bottom: 3.125rem;
-=======
-      /* height: 25rem; */
-      height: min-content;
-      padding: 2rem;
-      padding-bottom: 5rem;
->>>>>>> 1c87b0c4b61d437209219a2b65ec84d7038fcd84
       text-align: center;
       -webkit-transform: translateY(50%);
               transform: translateY(50%);
