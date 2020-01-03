@@ -64,3 +64,15 @@
     color:#11cbd7!important;
     text-decoration: underline;
 }
+#tb1,#tb2,#tb3,#tb4,#tb5 th{
+    font-size: 14px;
+}
+#tb1{
+    display: table;
+}
+#tb2,#tb3,#tb4,#tb5{
+    display:none;
+}
+
+
+
